@@ -1,0 +1,22 @@
+opti conp defect
+cell
+4.212 4.212 4.212 90.0 90.0 90.0
+
+frac
+Mg core 0.0 0.0 0.0
+Mg core 0.0 0.5 0.5
+Mg1 core 0.5 0.0 0.5
+Mg core 0.5 0.5 0.0
+O core 0.5 0.5 0.5
+O core 0.5 0.0 0.0
+O core 0.0 0.5 0.0
+O core 0.0 0.0 0.5
+
+species
+Mg core 2.0
+O core -2.0
+Li core 1.0
+
+centre 0.5 0.0 0.5
+size 6 12
+impurity Li 0.5 0.0 0.5

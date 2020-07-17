@@ -1,0 +1,37 @@
+# Vanadium pentoxide: V2O5
+# Orthorhombic structure, Pmmn no. 59 / Pmn2(1) no. 31
+# a = 11.519, b = 4.373, c = 3.564 (Å). Full set of data from Bachmann 1961. crystal data table, B values used
+opti conp compare property noelectrostatics
+title
+Fitting and optimization of Vanadium pentoxide
+end
+
+cell
+11.519 4.373 3.564 90.0 90.0 90.0
+# How to account for interstitial bonds and variable oxidation state
+
+# species
+# V core 2.5
+# O core -2.0
+
+fractional
+V 0.0129004254 0.0240109764 0.0 5.0
+O1 0.0129351506 0.1047335925 0.0 -2.0 
+O2 0.0156263565 0.0 0.1402918070 -2.0
+O3 0.0 0.0 0.0  -2.0
+
+
+# space group Pmnm
+spacegroup
+31
+
+# Source: https://doi.org/10.1080/08927029308022513 table 1
+#morse
+#V core O core 10.0 2.30217 1.774
+#             D(e) a       r0
+# Why are there 6 numbers in the ceria model? Manual specifies only D(e), a and r0
+
+# Could not find data for qerfc of vanadium pentoxide
+#qerfc         ener
+#V core V core  
+#O core O core  
