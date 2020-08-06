@@ -26,12 +26,14 @@ spacegroup
 31
 
 # Source: https://doi.org/10.1080/08927029308022513 table 1
-#morse
-#V core O core 10.0 2.30217 1.774
-#             D(e) a       r0
-# Why are there 6 numbers in the ceria model? Manual specifies only D(e), a and r0
+# buckingham potential
+buck
+V core O core 3000.0 0.36415 0.0 1.99 3.0
+#             A      rho     C   rmin rmax
+O core O core 22764.3 0.1490 23.0 0.0 10.0 
+#             A       rho    C   rmin rmax
 
 # Could not find data for qerfc of vanadium pentoxide
 #qerfc         ener
-#V core V core  
-#O core O core  
+#V core V core
+#O core O core
